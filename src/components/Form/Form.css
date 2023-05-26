@@ -1,0 +1,36 @@
+.form{
+    padding: 2rem 1rem;
+}
+.btnContainer{
+    text-align: center;
+}
+.btn{
+    padding: 1.2rem 5rem;
+    background-color: hsl(154, 59%, 51%);
+    margin: 2% 1%;
+    border-radius: 6px;
+    border: 1px solid white;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    opacity: 0.9;
+    color: white;
+    text-shadow: 0px 1px 2px gray;
+    letter-spacing: 1.5px;
+    width: 100%;    
+}
+.btn:hover{
+    opacity: 1;
+}
+.btnP{
+    font-size: 12px;
+    color: gray;
+}
+.btnP span{
+    font-size: 14px;
+}
+
+@media (max-width: 600px){
+    .btn{
+        padding: .6rem 2.5rem;
+    }
+}
