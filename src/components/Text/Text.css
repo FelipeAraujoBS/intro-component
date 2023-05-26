@@ -15,6 +15,14 @@
     font-weight: lighter;
 }
 
+@media (max-width: 1400px){
+.Text{
+    width: 40%;
+    margin-top: -2%;
+    margin-left: -3%;
+}
+
+}
 
 @media (max-width: 600px){
     .Text{
